@@ -1,6 +1,6 @@
 /**
  * Pattern for controlled writing into stream
- * Callback will be invoked only when it's possible write next chunk of data
+ * Callback will be invoked only when it's possible to write a next chunk of data
  */
 
 const write = (stream, data, cb) => {

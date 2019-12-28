@@ -2,7 +2,7 @@ const stream = require('stream');
 
 /**
  * Class generate random string sequence
- * Good for overload some server bu arrived data
+ * Good for overload some server via arrived data
  */
 class FillString extends stream.Readable {
   /**
